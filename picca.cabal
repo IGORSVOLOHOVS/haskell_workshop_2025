@@ -28,7 +28,7 @@ library
            text ^>=2.0.2
 
     hs-source-dirs:   src
-    default-language: GHC2021
+    default-language: Haskell2010
 
 executable picca
     import:           warnings
@@ -38,7 +38,7 @@ executable picca
         picca
 
     hs-source-dirs:   app
-    default-language: GHC2021
+    default-language: Haskell2010
 
 test-suite picca-test
     import:           warnings
@@ -53,4 +53,4 @@ test-suite picca-test
            yaml ^>=0.11.11.2,
            aeson ^>=2.2.1.0,
            text ^>=2.0.2
-    default-language: GHC2021
+    default-language: Haskell2010
